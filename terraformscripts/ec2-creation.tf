@@ -4,12 +4,12 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "AWSServer"{
-ami = "ami-0da59f1af71ea4ad2"
+ami = "ami-06791f9213cbb608b"
 instance_type = "t2.micro"
-key_name = "devopsmithuntechnologiesbhaskar"
+key_name = "devopstraning"
 security_groups = ["launch-wizard-2"]
 tags = {
-Name = "tomcatsservers"
+Name = "Terraformservers"
 }
 }
 
